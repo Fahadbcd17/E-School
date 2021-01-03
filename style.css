@@ -1,0 +1,99 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin-bottom: 70px;
+}
+
+#header{
+    min-height: 560px;
+    width: 100%;
+    background-color: #f0fff0;
+}
+/* Nav-Start */
+.nav-item{
+    margin-right: 30px;
+}
+
+.btn-style button{
+    color: white;
+    padding: 10px 25px;
+    background-color: #21B573;
+    border:none;
+    border-radius: 50px;
+    transition: .3s ease-in-out .1s background-color;
+}
+
+button:hover{
+    color:  #21B573;
+    font-weight: 500;
+    background-color: #f0fff0;
+}       /* Nav-End */
+
+
+/* Header-Body-Start */
+    p span{
+        color: #FD511A;
+    }
+    p{
+        line-height: 35px;
+    }
+    h1 span{
+        color: #21B573;
+    }       /* Header-Body-End */
+
+
+/* Books-section-Start */
+
+    .books-card{
+        height: 230px;
+    }
+
+    .books-card-big{
+        height: 250px;
+    }
+
+    .books-card, .books-card-big{
+        box-shadow: 5px 5px 10px gray;
+        border-radius: 10px;
+    }
+
+    #books{
+        margin-top: 100px;
+    }       /* Books-section-End */
+
+
+
+/* Courses-Section-Start */
+    #courses{
+            margin-top: 100px;
+        }
+
+    .courses-heading-style{
+            color: #413960;
+        }
+
+    .courses-card{
+        box-shadow: 5px 5px 10px gray;
+        border-radius: 10px;
+    }
+
+    .courses-text{
+        padding: 10px 20px;
+    }
+    .courses-img{
+        margin-top: 10px;
+        padding: 10px 15px;
+        line-height: 30px;
+    }
+/* Courses-Section-End */
+
+#footer{
+    margin-top: 100px;
+    min-height: 250px;
+    color: white;
+    background-color: #282531;
+}
+
